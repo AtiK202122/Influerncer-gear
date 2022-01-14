@@ -43,9 +43,7 @@ header style
 /*--------- 
 product style
 --------  */
-main{
-    border: 2px solid red;
-}
+
 .popular-collection{
     width: 1047px;
     
@@ -76,10 +74,19 @@ main{
     position: relative;
     float: right;
 }
+/* features style  */
+.features{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 /* footer style  */
 .footer-content{
-   text-align: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
 }
+
 footer{
     background-color: #0A0826;
     color: white;
