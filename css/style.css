@@ -43,10 +43,12 @@ header style
 /*--------- 
 product style
 --------  */
-
+main{
+    border: 2px solid red;
+}
 .popular-collection{
     width: 1047px;
-    height: 1662px;
+    
     margin: auto;
     align-items: center;
 
@@ -70,10 +72,15 @@ product style
 .star-rating{
     color: #FB8200;
 }
-.see-more{
+.see{
+    position: relative;
     float: right;
 }
 /* footer style  */
 .footer-content{
-   margin: auto;
+   text-align: center;
+}
+footer{
+    background-color: #0A0826;
+    color: white;
 }
