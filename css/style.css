@@ -10,7 +10,8 @@ header style
 -----------  */
 .headers{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+   
 }
 .head-details{
     Width :582px;
@@ -34,13 +35,45 @@ header style
     background-color: #E02C6D;
 }
 .head-pic{
-    margin-right: 165px;
+   
     margin-top: 211px;
+    height: 414px;
+    width: 440px;
 }
 /*--------- 
 product style
 --------  */
+
+.popular-collection{
+    width: 1047px;
+    height: 1662px;
+    margin: auto;
+    align-items: center;
+
+}
+.popular-collection>h3{
+    text-align: center;
+}
 .product-details{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+.product-detail{
+    padding: 14px;
+    margin: 30px;
+}
+.product-detail>p{
+    color: #787885;
+    height: 61px;
+    font-size: 14px;
+}
+.star-rating{
+    color: #FB8200;
+}
+.see-more{
+    float: right;
+}
+/* footer style  */
+.footer-content{
+   margin: auto;
 }
