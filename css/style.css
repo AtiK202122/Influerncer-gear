@@ -37,3 +37,10 @@ header style
     margin-right: 165px;
     margin-top: 211px;
 }
+/*--------- 
+product style
+--------  */
+.product-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
