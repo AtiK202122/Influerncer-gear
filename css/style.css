@@ -91,3 +91,40 @@ footer{
     background-color: #0A0826;
     color: white;
 }
+
+/* ---------------------
+Media queries
+------------------------ */
+
+/* Mobile devices */
+@media only screen and (max-width:480px) {
+    .headers,.features{
+       flex-direction: column;
+       
+    }
+    .head-details,.feature-details{
+       
+        flex-direction: column;
+        width: min-content;
+        height: min-content;
+    }
+    .product-details{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    
+}
+/* @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players ,.blogs , .courses{
+        
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .player , .blog{
+        flex-direction: column;
+    }
+   
+} */
